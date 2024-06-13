@@ -5,7 +5,17 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildScripts", "BuildScripts", "{BCA899B6-524F-41FB-88CB-C3A2DBE0D822}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsBatchScripts", "WindowsBatchScripts", "{D6671B82-160D-4AA2-966D-6754F4FE8462}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BatchScripts", "BatchScripts", "{D6671B82-160D-4AA2-966D-6754F4FE8462}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\BuildScripts\BatchScripts\ArgumentManager.bat = Scripts\BuildScripts\BatchScripts\ArgumentManager.bat
+		Scripts\BuildScripts\BatchScripts\BuildEventManager.bat = Scripts\BuildScripts\BatchScripts\BuildEventManager.bat
+		Scripts\BuildScripts\BatchScripts\BuildManager.bat = Scripts\BuildScripts\BatchScripts\BuildManager.bat
+		Scripts\BuildScripts\BatchScripts\DistributionEventManager.bat = Scripts\BuildScripts\BatchScripts\DistributionEventManager.bat
+		Scripts\BuildScripts\BatchScripts\DistributionManager.bat = Scripts\BuildScripts\BatchScripts\DistributionManager.bat
+		Scripts\BuildScripts\BatchScripts\QualityEventManager.bat = Scripts\BuildScripts\BatchScripts\QualityEventManager.bat
+		Scripts\BuildScripts\BatchScripts\QualityManager.bat = Scripts\BuildScripts\BatchScripts\QualityManager.bat
+		Scripts\BuildScripts\BatchScripts\VersionManager.bat = Scripts\BuildScripts\BatchScripts\VersionManager.bat
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PythonScripts", "PythonScripts", "{1EC3607F-6B5E-4010-B9F9-E79A2C2527FE}"
 EndProject
@@ -18,14 +28,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowershellScripts", "PowershellScripts", "{C3213568-B68B-47FC-84B5-B1986A78628B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{96885E6C-27CA-49CC-994D-7345A9C2673A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{28489223-2166-438A-BDE8-F2BEC8E69F9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{A9FD8364-1D25-4339-B8E7-B2E079F00FF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{74388E67-9BCF-4B05-A02D-FE8CEE5C21BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{02C8FB0E-D35B-45AE-A866-C0BCEA0C8431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{FC2B940A-CED6-4A4D-A38C-B94C6BC8A64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B5C65314-23D4-4F72-8F13-24F79C419332}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{BCA899B6-524F-41FB-88CB-C3A2DBE0D822} = {96885E6C-27CA-49CC-994D-7345A9C2673A}
 		{D6671B82-160D-4AA2-966D-6754F4FE8462} = {BCA899B6-524F-41FB-88CB-C3A2DBE0D822}
 		{1EC3607F-6B5E-4010-B9F9-E79A2C2527FE} = {BCA899B6-524F-41FB-88CB-C3A2DBE0D822}
 		{1DB38821-7F07-4925-A9AB-8B5A62D9ED6D} = {BCA899B6-524F-41FB-88CB-C3A2DBE0D822}
+		{C3213568-B68B-47FC-84B5-B1986A78628B} = {BCA899B6-524F-41FB-88CB-C3A2DBE0D822}
+		{28489223-2166-438A-BDE8-F2BEC8E69F9E} = {96885E6C-27CA-49CC-994D-7345A9C2673A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C3DA6E6-256C-4D53-9E91-32144DD8B1B3}

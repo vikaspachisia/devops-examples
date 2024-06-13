@@ -128,8 +128,8 @@ pipeline {
     TESTS_DIR = "${env.WORKSPACE}\\Tests"
     
     LOGS_DIR = "${TEMP_DIR}\\Logs"
-    SCRIPTS_DIR = "${SOURCE_DIR}\\Scripts"
-
+    
+    SCRIPTS_DIR = "${env.WORKSPACE}\\Scripts"
     POWERSHELL_SCRIPTS_DIR = "${SCRIPTS_DIR}\\PowershellScripts"
     PYTHON_SCRIPTS_DIR = "${SCRIPTS_DIR}\\PythonScripts"
     PERL_SCRIPTS_DIR = "${SCRIPTS_DIR}\\PerlScripts"
